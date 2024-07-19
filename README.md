@@ -4,7 +4,7 @@ a simple python tool that watches a git repo
 ### how to
 1. clone this repo
 2. cd into the repo
-3. int GitWatch, add a OnSetup file formatted like so:
+3. int GitWatch, add a OnSetup.py file formatted like so:
 ``` py
 def OnSetup(repo, owner, branch):
     # new commit logic
